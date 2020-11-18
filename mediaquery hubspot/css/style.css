@@ -581,7 +581,7 @@ footer .col-3
   display:block;
   position:absolute;
   z-index:100;
-  top:0;
+  top:15px;
   right:0;
 }
 .hamburger{
@@ -595,6 +595,7 @@ a{
 }
 .menu ul{
   position:relative;
+  top:10px;
   left:10px;
   display:none;}
 .menu:hover ul{
@@ -608,5 +609,25 @@ background-color: rgba(239,245,250,0.7);
 .menu ul li a:hover{
   background-color: rgb(160,230,219);
 }
+.rubik h4{
+font-size: 24px;
+  font-weight: bold;
+}
+.rubik p{
+  line-height: 100%;
+  font-size:16px;
 
+}
+.rubik img{
+width:50%;
+}
+.gradient h4,.gradient h6{
+  font-size:1rem;
+}
+.gradient p{
+  font-size: 0.6em;
+}
+.gradient img{
+height:30px;
+}
 }
