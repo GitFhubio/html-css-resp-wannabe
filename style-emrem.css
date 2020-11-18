@@ -3,7 +3,15 @@
   margin: 0;
   padding: 0;
 }
-
+body{
+  font-size: 16px;
+}
+h1{
+  font-size: 32px;
+}
+h3{
+  font-size: 22px;
+}
 .row {
   width: 992px;
   margin-left: auto;
@@ -117,13 +125,14 @@ img {
   height: 60px;
 }
 h1{
-  font-size: 20px;
+  font-size: 1.3em;
 }
 h3{padding:15px 0;
-  font-size: 16px;
+  font-size: 1.2em;
 }
- body{
-  font-size: 10px;
+
+body{
+  font-size: 0.7em;
 }
 hr{
   display:none;
