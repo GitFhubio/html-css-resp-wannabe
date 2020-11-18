@@ -75,8 +75,10 @@ img {
 /* codice */
 @media screen and (max-width: 420px) {
    .row {
-    width: 100%;
+    width: 90%;
     margin-top:0px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 #lezioni .row>.left,
 #lezioni .row>.right {
@@ -99,10 +101,10 @@ img {
   height: 60px;
 }
 h1{
-  font-size: 16px;
+  font-size: 20px;
 }
 h3{
-  font-size: 12px;
+  font-size: 16px;
 }
 body{
   font-size: 10px;
