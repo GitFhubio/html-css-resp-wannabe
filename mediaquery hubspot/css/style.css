@@ -457,21 +457,21 @@ margin-top:20px;
 @media screen and (max-width:768px) {
 
   header{
-    height:300px;
+    height:410px;
     background-size:100%;
     background-position:bottom -25px right -10px;}
   .header-bottom{
   height:50px;
     line-height: 50px;}
   .jumbotron{position:absolute;
-    top:20px;
+    top:30px;
     width:400px;
     }
 .jumbotron h1{
-  font-size: 40px;}
+  font-size: 48px;}
   .jumbotron p,.gettingstarted p{
     padding-right: 70px;
-    font-size: 12px;}
+    font-size: 16px;}
     .button{
       border-radius:3px;
       font-size:10px;
@@ -486,7 +486,7 @@ margin-top:20px;
       .gettingstarted .advice , .jumbotron .advice{
         margin-top:10px;
         padding-right: 250px;
-        font-size: 10px;
+        font-size: 11px;
       }
   .container{
     width:90%;
@@ -545,7 +545,8 @@ margin-top:20px;
     }
     .gettingstarted .woman{
     width: auto;
-    height: 250px;
+    height: 230px;
+    bottom:130px;
     position:absolute;
     right:0;
     }
@@ -556,7 +557,7 @@ margin-top:20px;
       text-align: center;
       display:block;
       position:absolute;
-      bottom: 50px;
+      bottom: 0px;
     }
     .gettingstarted .advice{
       padding-right: 0px;
@@ -581,7 +582,7 @@ footer .col-3
   display:block;
   position:absolute;
   z-index:100;
-  top:15px;
+  top:5px;
   right:0;
 }
 .hamburger{
@@ -614,7 +615,6 @@ font-size: 24px;
   font-weight: bold;
 }
 .rubik p{
-  line-height: 100%;
   font-size:16px;
 
 }
@@ -630,4 +630,16 @@ width:50%;
 .gradient img{
 height:30px;
 }
+.sponsor h2{
+  font-size:40px;
+}
+.sponsor p{
+line-height:140%;
+font-size:18px;
+
+}
+.gettingstarted h2{
+ font-size: 30px;
+}
+
 }
