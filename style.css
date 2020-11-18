@@ -109,6 +109,10 @@ con 5% e mettere width al 90% ad esempio */
   margin-top:10px;
   padding:10px 0;
 }
+#why .row {
+  margin-top:0px;
+  padding-top:20px;
+}
 img {
   height: 60px;
 }
