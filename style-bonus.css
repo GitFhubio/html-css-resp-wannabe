@@ -212,6 +212,9 @@ margin: 10px 0;
  }
 }@media only screen and (min-width: 1201px)
 {
+  .my-right{
+  padding:0 60px;
+  }
 
   .row {
     width:100vw;
