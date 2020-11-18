@@ -81,11 +81,14 @@ img {
 /* codice */
 @media screen and (max-width: 420px) {
    .row {
-    width: 90%;
+    width: 100%;
     margin-top: 10px;
-    margin-left: 5%;
-    margin-right: 5%;
+    padding:0 15px;
 }
+
+/* altrimenti potevo sovrascrivere margin left e right
+con 5% e mettere width al 90% ad esempio */
+
 #lezioni .row>.left,
 #lezioni .row>.right {
   padding:10px 0;
