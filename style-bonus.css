@@ -34,7 +34,7 @@
 #steps .row>.central,
 #steps .row>.right {
   float: left;
-  width: 33%;
+  width: 25%;
 }
 
 #steps {
@@ -59,6 +59,7 @@
   padding: 30px;
 }
 
+
 /* COMMON */
 .row::after {
   content: '';
@@ -78,8 +79,17 @@ img {
   clear: both;
 }
 
+.my-right{
+  display:block;
+  float: left;
+  width:25%;
+}
+
 /* codice */
 @media screen and (max-width: 420px) {
+  .my-right{
+    display:none;
+  }
    .row {
     width: 90%;
     margin-top: 10px;
@@ -131,4 +141,92 @@ h3{
 
 hr{
   display:none;
+}
+}
+@media only screen and (min-width: 421px) and (max-width: 768px)
+{
+  .my-right{
+    display:none;
+  }
+  .row {
+   width: 90%;
+   margin-top: 10px;
+   margin-left: 5%;
+   margin-right: 5%;
+ }
+ #lezioni .row>.left {
+ padding:10px 0;
+ width: 100%;
+ }
+ #lezioni .row>.right {
+ display:none;
+ }
+
+ #steps .row>.left,
+ #steps .row>.central {
+ width: 50%;
+ padding:10px 10px;
+ }
+ #steps .row>.right {
+ width: 100%;
+ padding:10px 0;
+ }
+
+ #why .row>.first,
+ #why .row>.third {
+ width: 100%;
+ margin-top:10px;
+ padding:10px 0px;
+ }
+
+ #why .row
+ {
+ display:none;
+ }
+ #steps .row {
+   margin-top:0px;
+   padding-top:20px;
+ }
+ #lezioni, #steps,#why{
+ font-size: 0.9em;
+ }
+ img {
+ height: 60px;
+ }
+ h1{
+ font-size: 1.5em;
+ }
+ h3{
+ font-size: 1.2em;
+ }
+
+ hr{
+margin: 10px 0;
+ display:block;
+ }
+ .container.grey {
+   background-color: #fff;
+ }
+ body{
+   background-color: lightblue;
+ }
+}@media only screen and (min-width: 1201px)
+{
+
+  .row {
+    width:100vw;
+  }
+  /* BLOCCO LEZIONI */
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 50%;
+    float: left;
+  }
+
+
+  .container.grey {
+    background-color: #000;
+    color:#fff;
+  }
+
 }
