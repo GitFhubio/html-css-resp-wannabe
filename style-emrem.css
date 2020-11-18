@@ -3,15 +3,7 @@
   margin: 0;
   padding: 0;
 }
-body{
-  font-size: 16px;
-}
-h1{
-  font-size: 32px;
-}
-h3{
-  font-size: 22px;
-}
+
 .row {
   width: 992px;
   margin-left: auto;
@@ -124,6 +116,10 @@ con 5% e mettere width al 90% ad esempio */
 img {
   height: 60px;
 }
+/* body{
+ font-size: 0.7rem;
+} */
+
 h1{
   font-size: 1.3em;
 }
@@ -131,9 +127,7 @@ h3{padding:15px 0;
   font-size: 1.2em;
 }
 
-body{
-  font-size: 0.7em;
-}
+
 hr{
   display:none;
 }
